@@ -17,29 +17,62 @@
             <div class="container-grid">
                 <img src="img/logo_principal.svg" alt="Banner Gaia.Int">
                 <div class="menu">
-                <nav class="menu">
-                    <a href="">Sobre</a>
-                    <a href="">Orçamentos</a>
-                    <a href="">Cases</a>
-                    <a href="">A empresa</a>
-                    <a href="">Duvidas</a>
+                    <nav class="menu">
+                        <a href="#">Sobre</a>
+                        <a href="#">Orçamentos</a>
+                        <a href="#">Cases</a>
+                        <a href="#">A empresa</a>
+                        <a href="#">Duvidas</a>
                 </div>
                 </nav>
             </div>
         </header>
-    </div>    
+    </div>
 </body>
 
-<div id="sobre">
+<section id="sobre">
     <div class="titulo-sub">
-    <H2> Conheça nossa história !!! </H2>
-    <h3>Leia abaixo um pouco da história da nossa empresa e como nós chegamos onde estamos aqui hoje</h3>
+        <H2> Conheça nossa história !!! </H2>
+        <h3>Leia abaixo um pouco da história da nossa empresa e como nós chegamos onde estamos aqui hoje</h3>
     </div>
     <div class="texto-sobre">
-        <P>Apesar de sermos relativamente novos no mercado, somos além de uma empresa, tratamos nosso projeto com naturalidade e pensando sempre naqueles que irão utilizá-lo, coisa que refletiu exatamente no nome escolhido para nossa empresa, atualmente nós buscamos nos estabelecer e buscar mais destaque nesse mercado que é cada vez mais requisitado</P>
+        <P>Apesar de sermos relativamente novos no mercado, somos além de uma empresa, tratamos nosso projeto com
+            naturalidade e pensando sempre naqueles que irão utilizá-lo, coisa que refletiu exatamente no nome escolhido
+            para nossa empresa, atualmente nós buscamos nos estabelecer e buscar mais destaque nesse mercado que é cada
+            vez mais requisitado</P>
     </div>
-</div>
+</section>
 
-<div id="orcamento">
+<section id="orcamento">
     <h2>Faça já seu orçamento !!</h2>
-</div>
+    <form>
+        <div class="container-cards">
+            <div class="card">
+                <label for="campo-nome">Nome</label>
+                <input id="campo-nome" placeholder="Digite seu nome">        
+            </div>
+            <div class="card">
+                <label for="telefone">Telefone</label>
+                <input id="telefone" placeholder="Digite seu telefone">
+            </div>
+            <div class="card">
+                <label for="campo-email">E-mail</label>
+                <input type="email" id="campo-email" placeholder="Digite seu E-mail" >
+            </div>
+            <div class="campo-textarea">
+                <label for="campo-descricao">Qual seu problema?</label>
+                <textarea name="" id="campo-descricao" cols="40" rows="8"
+                placeholder="Nos conte o motivo de sua procura"></textarea>
+            </div>
+        </div>
+        <div class="imagem-botao">
+            <img src="img/logo_orcamento.png" alt="">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</section>
+
+<section id="cases">
+    <h2>Conheça nossos principais projetos</h2>
+    <button> Jogar </button>
+</section>

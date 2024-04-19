@@ -9,6 +9,12 @@
     src: url(fonts/Bruno_Ace/BrunoAce-Regular.ttf);
 }
 
+:root
+{
+    --verde-gaia: #09BC8A;
+    --laranja-gaia: #F66B30;
+    --azul-gaia: #80A6F2;
+}
 
 html
 {
@@ -52,7 +58,7 @@ div.menu
     margin-right: 25px;
     width: 1070px;
     height: 130px;
-    background-color: #80a6f2;
+    background-color: var(--azul-gaia);
     align-items: center;
     display: flex;
     border-radius: 30px;
@@ -90,7 +96,7 @@ div.menu nav
 
 #sobre .texto-sobre
 {
-    width: 950px;
+    width: 908px;
     height: 200px;
     font-family: "electrolize";
     padding-left: 30px;
@@ -126,3 +132,130 @@ div.menu nav
     margin-top: 20px;
 }
 
+#orcamento h2
+{
+    font-family: "bruno";
+    text-align: center;
+    padding-top: 30px;
+    font-size: 32px;
+}
+
+#orcamento
+{
+    height: 650px;
+    margin-bottom: 120px;
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    position: relative;
+    background-color: white;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+    width: 900px;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#orcamento .card
+{
+    text-align: left;
+    margin-top: 20px;
+    font-family: "electrolize";
+    flex-direction: column-reverse;
+    font-size: 24px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#orcamento .card input
+{
+    color: black;
+    font-family: "electrolize";
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border-radius: 10px;
+}
+ 
+.campo-textarea
+{
+    font-family: "electrolize";
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    font-size: 24px;
+}
+
+.campo-textarea textarea
+{
+    font-family: "electrolize";
+    font-size: 17px;
+    outline: none;
+    color: black;
+    border-radius: 4px;
+    padding: 10px;
+    resize: none;
+    width: 386px;
+    height: 100px;
+    outline: none;
+    border-radius: 10px;
+}
+
+#orcamento form button
+{
+    background-color: var(--laranja-gaia);
+    margin-right: 50px;
+    width: 300px;
+    height: 120px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: "bruno";
+    font-size: 28px;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+}
+
+#orcamento .imagem-botao
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 50px;
+}
+
+#orcamento .imagem-botao img
+{
+    margin-right: 85px;
+    padding-top: 50px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#orcamento .imagem-botao button
+{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+#cases
+{
+    margin-top: 200px;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
