@@ -1,0 +1,128 @@
+@font-face
+{
+    font-family: "electrolize";
+    src: url(fonts/Electrolize/Electrolize-Regular.ttf);
+}
+
+@font-face {
+    font-family: "bruno";
+    src: url(fonts/Bruno_Ace/BrunoAce-Regular.ttf);
+}
+
+
+html
+{
+    background-color: #f6f6f6;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header div.container-grid
+{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;margin-left:  130px;
+    align-items: center;margin-right: 50px;
+
+}
+
+header div.container-grid img
+{
+    margin-top: 59px;
+}
+
+.banner 
+{
+    height: 100vh;
+    background-image:url(img/banner.png); 
+    background-repeat: no-repeat;
+    width: auto;
+    background-position:40%;  
+}
+
+div.menu
+{
+    margin-top: 90px;
+    margin-right: 25px;
+    width: 1070px;
+    height: 130px;
+    background-color: #80a6f2;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    border: 4px solid black;
+}
+
+div.menu a
+{
+   color: black;
+   text-decoration: underline transparent;
+   font-size: 25px;
+   font-family: "electrolize";
+
+}
+
+div.menu nav
+{
+    width: 1070px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#sobre .titulo-sub
+{
+    width: 1050px;
+    height: 250px;
+    font-family: "bruno";
+    box-shadow: 10px 0px 20px 0px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+#sobre .texto-sobre
+{
+    width: 950px;
+    height: 200px;
+    font-family: "electrolize";
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding-top: 40px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+   
+
+#sobre
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 100px;
+}
+
+#sobre .titulo-sub h2
+{
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+#sobre .titulo-sub h3
+{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
