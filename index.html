@@ -12,23 +12,30 @@
 </head>
 
 <body>
-    <div class="banner">
-        <header>
-            <div class="container-grid">
-                <img src="img/logo_principal.svg" alt="Banner Gaia.Int">
-                <div class="menu">
-                    <nav class="menu">
-                        <a href="#sobre">Sobre</a>
-                        <a href="#orcamento">Orçamentos</a>
-                        <a href="#cases">Cases</a>
-                        <a href="#empresa">A empresa</a>
-                        <a href="#duvidas">Duvidas</a>
+    <section id="topo">
+        
+        <div class="banner">
+            <header>
+                <div class="retorno">
+                        <a href="#topo"> <img src="img/Retorno.svg" alt=""></a>
+                    </div>
+                <div class="container-grid">
+                    
+                    <img src="img/logo_principal.svg" alt="Banner Gaia.Int">
+                    <div class="menu">
+                        <nav class="menu">
+                            <a href="#sobre">Sobre</a>
+                            <a href="#orcamento">Orçamentos</a>
+                            <a href="#cases">Cases</a>
+                            <a href="#empresa">A empresa</a>
+                            <a href="#duvidas">Duvidas</a>
+                    </div>
+                    </nav>
                 </div>
-                </nav>
-            </div>
-        </header>
-    </div>
-</body>
+            </header>
+        </div>
+    </section>
+
 
 <section id="sobre">
     <div class="titulo-sub">
@@ -49,20 +56,20 @@
         <div class="container-cards">
             <div class="card">
                 <label for="campo-nome">Nome</label>
-                <input id="campo-nome" placeholder="Digite seu nome">        
+                <input id="campo-nome" placeholder="Digite seu nome">
             </div>
             <div class="card">
                 <label for="telefone">Telefone</label>
-                <input id="telefone" placeholder="Digite seu telefone">
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
             </div>
             <div class="card">
                 <label for="campo-email">E-mail</label>
-                <input type="email" id="campo-email" placeholder="Digite seu E-mail" >
+                <input type="email" id="campo-email" placeholder="Digite seu E-mail">
             </div>
             <div class="campo-textarea">
                 <label for="campo-descricao">Qual seu problema?</label>
                 <textarea name="" id="campo-descricao" cols="40" rows="8"
-                placeholder="Nos conte o motivo de sua procura"></textarea>
+                    placeholder="Nos conte o motivo de sua procura"></textarea>
             </div>
         </div>
         <div class="imagem-botao">
@@ -72,19 +79,19 @@
     </form>
 </section>
 
-<section id="cases">  
+<section id="cases">
     <div class="texto-cases">
-            <h2>Conheça nossos principais projetos!!</h2>
+        <h2>Conheça nossos principais projetos!!</h2>
     </div>
     <div class="button-cases">
-           <button> Jogar </button>
-    </div>        
+        <button> Jogar </button>
+    </div>
 </section>
 
 <section id="empresa">
     <div class="repre">
         <h2>Nosso ambiente de trabalho</h2>
-        <img src="img/empresa.svg" alt="">        
+        <img src="img/empresa.svg" alt="">
     </div>
 </section>
 
@@ -95,57 +102,58 @@
             <div class="pergunta1">
                 <h3>Oque é gamificação?</h3>
             </div>
-                <div class="resposta1">
-                    <p>Gamificação é usar elementos de jogos em situações não relacionadas a jogos para engajar e motivar.</p>
-                </div>
+            <div class="resposta1">
+                <p>Gamificação é usar elementos de jogos em situações não relacionadas a jogos para engajar e motivar.
+                </p>
+            </div>
         </div>
         <div class="duvida2">
-        <div class="pergunta2">
-            <h3>A Gamificação funciona para todos?</h3>
+            <div class="pergunta2">
+                <h3>A Gamificação funciona para todos?</h3>
                 <div class="resposta2">
                     <p>Não necessariamente. Sua eficácia varia conforme o contexto e o público-alvo.</p>
                 </div>
-        </div>
+            </div>
         </div>
         <div class="duvida3">
-        <div class="pergunta3">
-            <h3>Quais são os benefícios da gamificação?</h3>
-            <div class="resposta3">
-                <p>Aumento do engajamento, motivação, aprendizado, produtividade e retenção de informações.</p>
+            <div class="pergunta3">
+                <h3>Quais são os benefícios da gamificação?</h3>
+                <div class="resposta3">
+                    <p>Aumento do engajamento, motivação, aprendizado, produtividade e retenção de informações.</p>
+                </div>
             </div>
-        </div>
         </div>
         <div class="duvida4">
-        <div class="pergunta4">
-            <h3>Como evitar que a gamificação se torne desinteressante?</h3>
-            <div class="resposta4">
-                <p>Oferecendo desafios relevantes, feedback claro e iterando com base no feedback dos usuários.</p>
+            <div class="pergunta4">
+                <h3>Como evitar que a gamificação se torne desinteressante?</h3>
+                <div class="resposta4">
+                    <p>Oferecendo desafios relevantes, feedback claro e iterando com base no feedback dos usuários.</p>
+                </div>
             </div>
         </div>
-        </div>        
     </div>
 </section>
 
 <section id="rodape">
- 
-    <div class="banner_r"> 
+    <div class="banner_r">
         <h2> Visite nossas redes</h2>
+
         <div class="texto-botao">
             <div class="textor">
-                <p>Todos os direitos autorais do conteúdo da Gaia são reservados. Uso não autorizado é proibido e sujeito a medidas legais. Entre em contato para obter permissão.
+                <p>Todos os direitos autorais do conteúdo da Gaia são reservados. Uso não autorizado é proibido e
+                    sujeito a medidas legais. Entre em contato para obter permissão.
                     2024</p>
-                <button>
-                    Voltar ao topo  
-                </button>    
+                <a href="#topo">Voltar ao topo</a>
             </div>
             <div class="botaor">
-                    
+                <a href="https://www.instagram.com/gaia.1nt/"> <img src="img/instasvg.svg" alt=""> Instagram </a>
+                <a href="http://"> <img src="img/fac.svg" alt=""> Facebook </a>
+                <a href="https://twitter.com/Ga1a_Int"><img src="img/twitter. svg.svg" alt=""> Twitter </a>
             </div>
-            
+
         </div>
 
     </div>
 
-
 </section>
-
+</body>

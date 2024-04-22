@@ -1,4 +1,3 @@
-
 @font-face
 {
     font-family: "electrolize";
@@ -20,6 +19,7 @@
 html
 {
     background-color: #f6f6f6;
+    scroll-behavior: smooth;
 }
 
 *
@@ -192,6 +192,7 @@ div.menu nav
     height: 50px;
     outline: none;
     border-radius: 10px;
+    text-indent: 10px;
 }
  
 .campo-textarea
@@ -217,6 +218,7 @@ div.menu nav
     height: 100px;
     outline: none;
     border-radius: 10px;
+    text-indent: 10px;
 }
 
 #orcamento form button
@@ -484,7 +486,7 @@ form
 #rodape .banner_r
 {
     margin-top: 200px;
-    height: 100vh;
+    height: 90vh;
     background-image:url(img/banner_rodape.png); 
     background-repeat: no-repeat;
     width: auto;
@@ -499,19 +501,25 @@ form
     font-size: 40px;
 }
 
-#rodape .banner_r .texto-botao .textor  button
+#rodape .banner_r .texto-botao .textor  a
 {
     background-color: var(--verde-gaia);
     margin-left: 75px;
     font-family: "electrolize";
     width: 250px;
-    height: 60px;
+    height: 50px;
     border: none;
     border-radius: 20px;
     text-align: left;
     color: white;
     font-size: 20px;
     text-indent: 15px;
+    text-decoration: none;
+    display: flex  ;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 12px;
 }
 
 #rodape .banner_r .texto-botao .textor p
@@ -521,7 +529,110 @@ form
     width: 750px;
     height: 300px;
     margin-left: 75px;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: justify;
     margin-bottom: 100px;
+
+}
+
+#rodape .banner_r .texto-botao .textor
+{
+    width: 600px;
+}
+
+#rodape .banner_r .texto-botao .botaor
+{
+    width: 300px;
+}
+
+#rodape .banner_r .texto-botao
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#rodape .banner_r .botaor
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 100px;
+    margin-top: 80px;
+
+}
+
+#rodape .banner_r .botaor a
+{
+    background-color: var(--verde-gaia);
+    cursor: pointer ;
+    width: 300px;
+    height: 63px;
+    margin-bottom: 100px;
+    font-family: "electrolize";
+    font-size: 28px;
+    text-align: left;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-indent: 10px; 
+    font-weight: 500; 
+    color: white;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+
+#rodape .banner_r .botaor a img
+{
+    width: 40px;
+    margin-left: 17px;
+    margin-top: 4px;
+}
+
+#orcamento .imagem-botao button:hover
+{
+    background-color: #ca5928;
+}
+
+#orcamento .imagem-botao button
+{
+    transition: 500ms;
+}
+
+#cases .button-cases button:hover
+{
+    background-color: #ca5928;
+}
+
+
+
+#cases .button-cases button
+{
+    transition: 500ms;
+}
+
+#rodape .banner_r .botaor a:hover
+{
+    background-color: #07926b;
+}
+
+#rodape .banner_r .texto-botao .textor  a:hover
+{
+    background-color: #07926b;
+}
+
+#rodape .banner_r .texto-botao .textor  a
+{
+    transition: 500ms;
+}
+
+#topo .banner  .retorno a
+{
+    bottom: 0;
+    position: fixed;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
