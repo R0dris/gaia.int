@@ -1,5 +1,4 @@
-@font-face
-{
+@font-face {
     font-family: "electrolize";
     src: url(fonts/Electrolize/Electrolize-Regular.ttf);
 }
@@ -9,62 +8,55 @@
     src: url(fonts/Bruno_Ace/BrunoAce-Regular.ttf);
 }
 
-:root
-{
+:root {
     --verde-gaia: #09BC8A;
     --laranja-gaia: #F66B30;
     --azul-gaia: #80A6F2;
 }
 
-html
-{
+html {
     background-color: #f6f6f6;
     scroll-behavior: smooth;
 }
 
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
 
-h2
-{
+h2 {
     font-weight: lighter;
 }
 
-h3
-{
+h3 {
     font-weight: lighter;
 }
 
-header div.container-grid
-{
+header div.container-grid {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;margin-left:  130px;
-    align-items: center;margin-right: 50px;
+    align-items: center;
+    margin-left: 130px;
+    align-items: center;
+    margin-right: 50px;
 
 }
 
-header div.container-grid img
-{
+header div.container-grid img {
     margin-top: 59px;
 }
 
-.banner 
-{
+.banner {
     height: 100vh;
-    background-image:url(img/banner.png); 
+    background-image: url(img/banner.png);
     background-repeat: no-repeat;
     width: auto;
-    background-position:40%;  
+    background-position: 40%;
 }
 
-div.menu
-{
+div.menu {
     margin-top: 90px;
     margin-right: 25px;
     width: 1070px;
@@ -76,17 +68,15 @@ div.menu
     border: 4px solid black;
 }
 
-div.menu a
-{
-   color: black;
-   text-decoration: underline transparent;
-   font-size: 25px;
-   font-family: "electrolize";
+div.menu a {
+    color: black;
+    text-decoration: underline transparent;
+    font-size: 25px;
+    font-family: "electrolize";
 
 }
 
-div.menu nav
-{
+div.menu nav {
     width: 1070px;
     margin-right: 50px;
     margin-left: 50px;
@@ -95,34 +85,31 @@ div.menu nav
 }
 
 
-#sobre .titulo-sub
-{
+#sobre .titulo-sub {
     width: 1050px;
     height: 250px;
     font-family: "bruno";
-    box-shadow: 10px 0px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 10px 0px 20px 0px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     margin: 0 auto;
 }
 
-#sobre .texto-sobre
-{
+#sobre .texto-sobre {
     width: 908px;
     height: 200px;
     font-family: "electrolize";
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 30px;
-    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     padding-top: 40px;
     margin-left: 20px;
     font-size: 24px;
 }
-   
 
-#sobre
-{
+
+#sobre {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -131,28 +118,24 @@ div.menu nav
     margin: 100px;
 }
 
-#sobre .titulo-sub h2
-{
+#sobre .titulo-sub h2 {
     margin-top: 30px;
     font-size: 32px;
 }
 
-#sobre .titulo-sub h3
-{
+#sobre .titulo-sub h3 {
     font-size: 24px;
     margin-top: 20px;
 }
 
-#orcamento h2
-{
+#orcamento h2 {
     font-family: "bruno";
     text-align: center;
     padding-top: 30px;
     font-size: 32px;
 }
 
-#orcamento
-{
+#orcamento {
     height: 650px;
     margin-bottom: 120px;
     background-size: contain;
@@ -160,7 +143,7 @@ div.menu nav
     background-attachment: fixed;
     position: relative;
     background-color: white;
-    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
     width: 900px;
     border-radius: 40px;
     margin: 0 auto;
@@ -170,8 +153,7 @@ div.menu nav
     margin-bottom: 120px;
 }
 
-#orcamento .card
-{
+#orcamento .card {
     text-align: left;
     margin-top: 20px;
     font-family: "electrolize";
@@ -183,8 +165,7 @@ div.menu nav
 
 }
 
-#orcamento .card input
-{
+#orcamento .card input {
     color: black;
     font-family: "electrolize";
     font-size: 20px;
@@ -194,9 +175,8 @@ div.menu nav
     border-radius: 10px;
     text-indent: 10px;
 }
- 
-.campo-textarea
-{
+
+.campo-textarea {
     font-family: "electrolize";
     padding-top: 15px;
     display: flex;
@@ -205,8 +185,7 @@ div.menu nav
     font-size: 24px;
 }
 
-.campo-textarea textarea
-{
+.campo-textarea textarea {
     font-family: "electrolize";
     font-size: 17px;
     outline: none;
@@ -221,8 +200,7 @@ div.menu nav
     text-indent: 10px;
 }
 
-#orcamento form button
-{
+#orcamento form button {
     background-color: var(--laranja-gaia);
     margin-right: 50px;
     width: 300px;
@@ -233,12 +211,11 @@ div.menu nav
     font-size: 28px;
     outline: none;
     border: none;
-    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
     color: white;
 }
 
-#orcamento .imagem-botao
-{
+#orcamento .imagem-botao {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -246,32 +223,28 @@ div.menu nav
     margin-left: 50px;
 }
 
-#orcamento .imagem-botao img
-{
+#orcamento .imagem-botao img {
     margin-right: 85px;
     padding-top: 50px;
 }
 
-form
-{
+form {
     display: flex;
     flex-direction: row;
 }
 
-#orcamento .imagem-botao button
-{
+#orcamento .imagem-botao button {
     margin-top: 90px;
     margin-bottom: 50px;
 }
 
 
-#cases
-{
+#cases {
     margin-top: 200px;
     width: 900px;
     height: 500px;
     background-color: white;
-    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     font-family: "bruno";
     font-size: 32px;
@@ -282,23 +255,20 @@ form
     margin-bottom: 120px;
 }
 
-#cases .texto-cases
-{
+#cases .texto-cases {
     width: 210px;
     height: 230px;
     margin-left: 100px;
     margin-top: 100px;
 }
 
-#cases .button-cases
-{
+#cases .button-cases {
     display: flex;
     align-items: flex-end;
     margin-right: 100px;
 }
 
-#cases .button-cases button
-{
+#cases .button-cases button {
     width: 250px;
     height: 130px;
     margin-bottom: 90px;
@@ -311,8 +281,7 @@ form
     cursor: pointer;
 }
 
-#empresa .repre
-{
+#empresa .repre {
     font-family: "bruno";
     font-size: 32px;
     margin: 0 auto;
@@ -322,187 +291,165 @@ form
     margin-bottom: 120px;
 }
 
-#empresa .repre img
-{
+#empresa .repre img {
     margin-top: 50px;
-    width:600px;
+    width: 600px;
 }
 
-#duvidas 
-{
+#duvidas {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#duvidas h2
-{
+#duvidas h2 {
     font-family: "bruno";
     font-size: 40px;
 }
 
-#duvidas .duvida1 .pergunta1
-{
+#duvidas .duvida1 .pergunta1 {
     margin-top: 50px;
-    box-shadow: 9px 4px 20px 1px rgba(0,0,0,0.5);
+    box-shadow: 9px 4px 20px 1px rgba(0, 0, 0, 0.5);
     width: 900px;
     height: 100px;
     border-radius: 20px;
 }
 
-#duvidas .duvida1 .pergunta1 h3
-{
+#duvidas .duvida1 .pergunta1 h3 {
     text-align: center;
     font-family: "bruno";
     font-size: 32px;
     padding-top: 32px;
 }
 
-#duvidas .duvida1 .resposta1
-{
-    box-shadow: 15px 10px 10px 1px rgba(0,0,0,0.5);
+#duvidas .duvida1 .resposta1 {
+    box-shadow: 15px 10px 10px 1px rgba(0, 0, 0, 0.5);
     width: 845px;
     height: 75px;
     margin-left: 25px;
     border-radius: 20px;
 }
 
-#duvidas .duvida1 .resposta1 p
-{
+#duvidas .duvida1 .resposta1 p {
     text-align: center;
     padding-top: 26px;
     font-family: "electrolize";
     font-size: 17px;
 }
 
-#duvidas .duvida2 .pergunta2
-{
-    margin-top: 50px;  
+#duvidas .duvida2 .pergunta2 {
+    margin-top: 50px;
     margin-bottom: 50px;
-    box-shadow: 9px 4px 20px 1px rgba(0,0,0,0.5);
+    box-shadow: 9px 4px 20px 1px rgba(0, 0, 0, 0.5);
     width: 900px;
     height: 100px;
     border-radius: 20px;
 }
 
-#duvidas .duvida2 .pergunta2 h3
-{
+#duvidas .duvida2 .pergunta2 h3 {
     text-align: center;
     font-family: "bruno";
     font-size: 28Px;
     padding-top: 32px;
 }
 
-#duvidas .duvida2 .resposta2
-{
+#duvidas .duvida2 .resposta2 {
     margin-top: 35px;
-    box-shadow: 15px 10px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 15px 10px 10px 1px rgba(0, 0, 0, 0.5);
     width: 845px;
     height: 75px;
     margin-left: 25px;
     border-radius: 20px;
 }
 
-#duvidas .duvida2 .resposta2 p
-{
+#duvidas .duvida2 .resposta2 p {
     text-align: center;
     padding-top: 26px;
     font-family: "electrolize";
-    font-size: 18px;    
+    font-size: 18px;
 }
 
-#duvidas .duvida3 .pergunta3
-{
-    margin-top: 130px;  
+#duvidas .duvida3 .pergunta3 {
+    margin-top: 130px;
     margin-bottom: 50px;
-    box-shadow: 9px 4px 20px 1px rgba(0,0,0,0.5);
+    box-shadow: 9px 4px 20px 1px rgba(0, 0, 0, 0.5);
     width: 900px;
     height: 100px;
     border-radius: 20px;
 }
 
-#duvidas .duvida3 .pergunta3 h3
-{
+#duvidas .duvida3 .pergunta3 h3 {
     text-align: center;
     font-family: "bruno";
     font-size: 27px;
     padding-top: 32px;
 }
 
-#duvidas .duvida3 .resposta3 
-{
+#duvidas .duvida3 .resposta3 {
     margin-top: 35px;
-    box-shadow: 15px 10px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 15px 10px 10px 1px rgba(0, 0, 0, 0.5);
     width: 845px;
     height: 75px;
     margin-left: 25px;
     border-radius: 20px;
 }
 
-#duvidas .duvida3 .resposta3 p
-{
+#duvidas .duvida3 .resposta3 p {
     text-align: center;
     padding-top: 26px;
     font-family: "electrolize";
-    font-size: 18px; 
+    font-size: 18px;
 }
 
-#duvidas .duvida4 .pergunta4
-{
-    margin-top: 130px;  
+#duvidas .duvida4 .pergunta4 {
+    margin-top: 130px;
     margin-bottom: 50px;
-    box-shadow: 9px 4px 20px 1px rgba(0,0,0,0.5);
+    box-shadow: 9px 4px 20px 1px rgba(0, 0, 0, 0.5);
     width: 900px;
     height: 100px;
     border-radius: 20px;
 }
 
-#duvidas .duvida4 .pergunta4 h3
-{
+#duvidas .duvida4 .pergunta4 h3 {
     text-align: center;
     font-family: "bruno";
     font-size: 23px;
     padding-top: 32px;
 }
 
-#duvidas .duvida4 .resposta4 
-{
+#duvidas .duvida4 .resposta4 {
     margin-top: 40px;
-    box-shadow: 15px 10px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 15px 10px 10px 1px rgba(0, 0, 0, 0.5);
     width: 845px;
     height: 75px;
     margin-left: 25px;
     border-radius: 20px;
 }
 
-#duvidas .duvida4 .resposta4 p
-{
+#duvidas .duvida4 .resposta4 p {
     text-align: center;
     padding-top: 26px;
     font-family: "electrolize";
-    font-size: 18px; 
+    font-size: 18px;
 }
 
-#rodape .banner_r
-{
+#rodape .banner_r {
     margin-top: 200px;
     height: 90vh;
-    background-image:url(img/banner_rodape.png); 
+    background-image: url(img/banner_rodape.png);
     background-repeat: no-repeat;
     width: auto;
-    background-position:40%;  
+    background-position: 40%;
 }
 
-#rodape .banner_r h2
-{
+#rodape .banner_r h2 {
     text-align: center;
     font-family: "bruno";
     font-weight: lighter;
     font-size: 40px;
 }
 
-#rodape .banner_r .texto-botao .textor  a
-{
+#rodape .banner_r .texto-botao .textor a {
     background-color: var(--verde-gaia);
     margin-left: 75px;
     font-family: "electrolize";
@@ -515,15 +462,14 @@ form
     font-size: 20px;
     text-indent: 15px;
     text-decoration: none;
-    display: flex  ;
+    display: flex;
     font-size: 28px;
     text-align: center;
     margin-top: 5px;
     padding-top: 12px;
 }
 
-#rodape .banner_r .texto-botao .textor p
-{
+#rodape .banner_r .texto-botao .textor p {
     font-family: "electrolize";
     font-size: 40px;
     width: 750px;
@@ -535,26 +481,22 @@ form
 
 }
 
-#rodape .banner_r .texto-botao .textor
-{
+#rodape .banner_r .texto-botao .textor {
     width: 600px;
 }
 
-#rodape .banner_r .texto-botao .botaor
-{
+#rodape .banner_r .texto-botao .botaor {
     width: 300px;
 }
 
-#rodape .banner_r .texto-botao
-{
+#rodape .banner_r .texto-botao {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
 
-#rodape .banner_r .botaor
-{
+#rodape .banner_r .botaor {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -563,10 +505,9 @@ form
 
 }
 
-#rodape .banner_r .botaor a
-{
+#rodape .banner_r .botaor a {
     background-color: var(--verde-gaia);
-    cursor: pointer ;
+    cursor: pointer;
     width: 300px;
     height: 63px;
     margin-bottom: 100px;
@@ -577,62 +518,103 @@ form
     border-radius: 20px;
     display: flex;
     align-items: center;
-    text-indent: 10px; 
-    font-weight: 500; 
+    text-indent: 10px;
+    font-weight: 500;
     color: white;
     text-decoration: none;
     transition: 500ms;
 }
 
 
-#rodape .banner_r .botaor a img
-{
+#rodape .banner_r .botaor a img {
     width: 40px;
     margin-left: 17px;
     margin-top: 4px;
 }
 
-#orcamento .imagem-botao button:hover
-{
+#orcamento .imagem-botao button:hover {
     background-color: #ca5928;
 }
 
-#orcamento .imagem-botao button
-{
+#orcamento .imagem-botao button {
     transition: 500ms;
 }
 
-#cases .button-cases button:hover
-{
+#cases .button-cases button:hover {
     background-color: #ca5928;
 }
 
 
 
-#cases .button-cases button
-{
+#cases .button-cases button {
     transition: 500ms;
 }
 
-#rodape .banner_r .botaor a:hover
-{
+#rodape .banner_r .botaor a:hover {
     background-color: #07926b;
 }
 
-#rodape .banner_r .texto-botao .textor  a:hover
-{
+#rodape .banner_r .texto-botao .textor a:hover {
     background-color: #07926b;
 }
 
-#rodape .banner_r .texto-botao .textor  a
-{
+#rodape .banner_r .texto-botao .textor a {
     transition: 500ms;
 }
 
-#topo .banner  .retorno a
-{
+#topo .banner .retorno a {
     bottom: 0;
     position: fixed;
     margin-left: 25px;
     margin-bottom: 25px;
+
+}
+
+@media screen and (max-width: 1300px) {
+
+
+    nav.menu {
+        height: 700px;
+        width: 350px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        top: 0px;  
+        right: auto; 
+        color: white;
+        background: rgb(128, 166, 242);
+        background: linear-gradient(0deg, rgba(128, 166, 242, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 75%, rgba(128, 166, 242, 1) 100%);
+        border-radius: 20px;
+    }
+
+    nav.menu a {
+        width: 300px;
+        height: 70px;
+        color: black;
+        margin-top: 20px;
+        background-color: var(--azul-gaia);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid black;
+        
+    }
+
+
+    nav.menu a:last-child {
+        margin-bottom: 50px;
+    }
+
+    nav.menu a:first-child
+    {
+        margin-top: 50px;
+    }
+
+    div.menu
+    {
+        background-color: transparent;
+        border: none;
+    }
 }
