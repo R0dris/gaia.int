@@ -84,6 +84,26 @@ div.menu nav {
     justify-content: space-between;
 }
 
+div.menu p
+{
+    display: none;
+    font-family: "bruno";
+    font-size: 48px;
+}
+
+div.menu nav.menu button
+{
+    display: none;
+    background-color: var(--laranja-gaia);
+    color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-family: "bruno";
+    text-align: center;
+    text-indent: 170px;
+    font-size: 24px;
+
+}
 
 #sobre .titulo-sub {
     width: 1050px;
@@ -570,51 +590,195 @@ form {
 
 }
 
-@media screen and (max-width: 1300px) {
+
+@media (max-width: 1300px) {
+    header div.container-grid {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    div.menu {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #orcamento {
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #orcamento .imagem-botao img
+    {
+        display: none;
+    }
+
+    #orcamento .imagem-botao button
+    {        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
 
 
-    nav.menu {
-        height: 700px;
+    #orcamento .imagem-botao
+    {
+        display: flex;
+        justify-content: flex-end;
+
+        margin: 0 auto;
+    }
+
+    #orcamento .container-cards
+    {
+        left: 0;
+        width: 100px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+    }
+
+    #orcamento .container-cards .card input, 
+    #orcamento .container-cards .campo-textarea textarea 
+    {
+        width: 800px
+    }
+    #orcamento h2
+    {
+        padding-bottom: 10px;
+        height: 50px;
+    }
+
+    #cases {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+
+
+    #duvidas .duvida1 .pergunta1,
+    #duvidas .duvida2 .pergunta2,
+    #duvidas .duvida3 .pergunta3,
+    #duvidas .duvida4 .pergunta4 {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #duvidas .duvida2 .resposta2,
+    #duvidas .duvida3 .resposta3,
+    #duvidas .duvida4 .resposta4
+    {
+        margin-top: 16px;
+        width: 690px;
+    }
+
+
+    #duvidas .duvida4 .resposta4 p
+    {
+        padding-top: 16px;
+    }
+
+    #duvidas .duvida2 .resposta2
+    {
+        padding-top: 20px;
+        font-size: 19px;
+    }
+
+    #duvidas .duvida3 .resposta3
+    {   
+        padding-top: 18px;
+        font-size: 19px;
+    }
+
+    header 
+    {
+        position: relative;
+    }
+
+    header button
+    {
+        width: 50px;
+        display: unset;
+        border: none;
+        background: none;
+    }
+
+    header svg {
+        fill: white;
+    }
+
+    nav.menu{
+        height: 500px;
         width: 350px;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        background: rgb(128,166,242);
+        background: linear-gradient(0deg, rgba(128,166,242,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(128,166,242,1) 100%);
         position: absolute;
-        top: 0px;  
-        right: auto; 
-        color: white;
-        background: rgb(128, 166, 242);
-        background: linear-gradient(0deg, rgba(128, 166, 242, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 75%, rgba(128, 166, 242, 1) 100%);
-        border-radius: 20px;
+        top: 1px;
+        right: -50px;
+        border-radius: 25px;
     }
 
-    nav.menu a {
-        width: 300px;
-        height: 70px;
-        color: black;
-        margin-top: 20px;
-        background-color: var(--azul-gaia);
-        border-radius: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 3px solid black;
-        
-    }
-
-
-    nav.menu a:last-child {
-        margin-bottom: 50px;
-    }
-
-    nav.menu a:first-child
+    nav.menu a
     {
-        margin-top: 50px;
+        width: 320px;
+        height: 100px;
+        border: 3px solid black;
+        background-color: #9cb0d8;
+        margin-bottom: 40px;
+        text-align: center;
+        border-radius: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     div.menu
     {
-        background-color: transparent;
         border: none;
+        background-color: transparent;
+        width: 0px;
+        height: 0px;
+    }
+
+    nav.menu 
+    {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    div.menu p
+    {
+        display: flex;
+        top: -85px;
+        position: relative;
+    }
+
+    div.menu nav.menu button
+    {
+        display: flex;
+        width: 450px;
+
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    #duvidas .duvida1 .resposta1
+    {
+        width: 690px;
+        margin-left: 60px;
     }
 }
+
+
