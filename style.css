@@ -44,6 +44,8 @@ header div.container-grid {
 
 }
 
+
+
 header div.container-grid img {
     margin-top: 59px;
 }
@@ -591,7 +593,7 @@ form {
 }
 
 
-@media (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     header div.container-grid {
         margin-left: 5%;
         margin-right: 5%;
@@ -609,6 +611,7 @@ form {
         padding-bottom: 50px;
         display: flex;
         flex-direction: column;
+        justify-content: normal;
     }
 
     #orcamento .imagem-botao img
@@ -621,33 +624,40 @@ form {
         display: flex;
         align-items: center;
         justify-content: center;
+        bottom: -400px;
+        position: relative;
+        width: 911px;
 
+        margin-left: -101px;
+        border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
     }
 
 
     #orcamento .imagem-botao
     {
         display: flex;
-        justify-content: flex-end;
 
         margin: 0 auto;
     }
 
     #orcamento .container-cards
     {
-        left: 0;
+        
         width: 100px;
         margin-top: 10px;
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-
     }
 
     #orcamento .container-cards .card input, 
     #orcamento .container-cards .campo-textarea textarea 
     {
-        width: 800px
+        width: 800px;
+        margin-bottom: -10px
     }
     #orcamento h2
     {
@@ -760,7 +770,7 @@ form {
     div.menu p
     {
         display: flex;
-        top: -85px;
+        top: -85px;     
         position: relative;
     }
 
@@ -779,6 +789,185 @@ form {
         width: 690px;
         margin-left: 60px;
     }
+
+    #topo .banner .retorno a img
+    {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1080px) 
+{
+
+    div.titulo-sub
+    {
+        height: 100px;
+        position: relative;
+        left: -84px;
+    }
+
+    div.menu nav.menu
+    {
+        position: absolute;
+        width: auto;
+    }
+
+    #orcamento .container-cards .card input, 
+    #orcamento .container-cards .campo-textarea textarea
+    {
+        width: 650px;
+    }
+
+    #orcamento .imagem-botao button
+    {
+        width: 758px;
+        margin-left: -101px;
+    }
+
+    #cases div.button-cases button
+    {
+        width: 759px;
+        margin-left: -312px;
+        margin-bottom: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+    #topo .banner .retorno a img
+    {
+        width: 100px;
+    }
+
+
 }
 
 
+@media screen and (max-width: 800px)
+{
+    #sobre div.titulo-sub
+    {
+        height: 200px;
+        width: 700px;
+        margin-left: 40px;
+    }
+
+    #sobre .texto-sobre
+    {
+        width: 580px;
+        height: 240px;
+        margin-left: -10px;
+    }
+
+    #orcamento .container-cards .card input, 
+    #orcamento .container-cards .campo-textarea textarea
+    {
+        width: 450px;
+    }
+
+    #orcamento .imagem-botao button
+    {
+        width: 561px;
+        margin-left: -101px;
+    }
+
+    #cases div.button-cases button
+    {
+        width: 562px;
+
+    }
+
+    #cases .texto-cases h2
+    {
+        margin-top: -35px;
+    }
+
+
+    #empresa .repre h2
+    {
+        text-align: center;
+    }
+
+    #rodape .banner_r h2
+    {
+        text-align: center;
+    }
+
+
+    #rodape .banner_r .texto-botao .textor p
+    {
+        margin-left: 21px;
+        font-size: 31px;
+        text-align: justify;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 551px)
+{
+
+
+
+    #tpop .banner
+    {
+        background-size: 100px;
+    }
+    #sobre div.titulo-sub
+    {
+        height: 200px;
+        width: 700px;
+        margin-left: 40px;
+    }
+
+    #sobre .texto-sobre
+    {
+        width: 580px;
+        height: 240px;
+        margin-left: -10px;
+    }
+
+    #orcamento .container-cards .card input, 
+    #orcamento .container-cards .campo-textarea textarea
+    {
+        width: 450px;
+    }
+
+    #orcamento .imagem-botao button
+    {
+        width: 561px;
+        margin-left: -101px;
+    }
+
+    #cases div.button-cases button
+    {
+        width: 562px;
+
+    }
+
+    #cases .texto-cases h2
+    {
+        margin-top: -35px;
+    }
+
+
+    #empresa .repre h2
+    {
+        text-align: center;
+    }
+
+    #rodape .banner_r h2
+    {
+        text-align: center;
+    }
+
+
+    #rodape .banner_r .texto-botao .textor p
+    {
+        margin-left: 21px;
+        font-size: 31px;
+        text-align: justify;
+        width: 350px;
+    }
+
+}
