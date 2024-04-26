@@ -913,36 +913,33 @@ form {
     {
         background-size: 100px;
     }
-    #sobre div.titulo-sub
-    {
-        height: 200px;
-        width: 700px;
+
+    #sobre div.titulo-sub {
+        height: 300px;
+        width: 450px;
         margin-left: 40px;
     }
 
-    #sobre .texto-sobre
-    {
-        width: 580px;
-        height: 240px;
-        margin-left: -10px;
+    #sobre .texto-sobre {
+        width: 441px;
+        height: 312px;
+        margin-left: 0px;
     }
 
-    #orcamento .container-cards .card input, 
-    #orcamento .container-cards .campo-textarea textarea
+    #orcamento .container-cards .card input,
+    #orcamento .container-cards .campo-textarea textarea 
     {
-        width: 450px;
+        width: 360px;
     }
 
-    #orcamento .imagem-botao button
+    #orcamento .imagem-botao button 
     {
-        width: 561px;
+        width: 458px;
         margin-left: -101px;
     }
 
-    #cases div.button-cases button
-    {
-        width: 562px;
-
+    #cases div.button-cases button {
+        width: 470px;
     }
 
     #cases .texto-cases h2
@@ -950,10 +947,9 @@ form {
         margin-top: -35px;
     }
 
-
-    #empresa .repre h2
-    {
+    #empresa .repre h2 {
         text-align: center;
+        font-size: 39px;
     }
 
     #rodape .banner_r h2
@@ -962,12 +958,223 @@ form {
     }
 
 
-    #rodape .banner_r .texto-botao .textor p
-    {
+    #rodape .banner_r .texto-botao .textor p {
         margin-left: 21px;
-        font-size: 31px;
+        font-size: 24px;
         text-align: justify;
-        width: 350px;
+        width: 235px;
+    }
+
+    #sobre .titulo-sub h2 {
+        margin-top: 35px;
+        font-size: 32px;
+    }
+
+
+    #orcamento {
+        width: 83%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+    }
+
+    #sobre .titulo-sub h3 {
+        font-size: 23px;
+        margin-top: 20px;
+    }
+
+    #orcamento h2 {
+        padding-bottom: 10px;
+        height: 50px;
+        font-size: 27px;
+    }
+
+    #cases {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    #empresa .repre img {
+        margin-top: 50px;
+        width: 500px;
+        margin-left: 10px;
+    }
+
+    #duvidas h2 {
+        font-family: "bruno";
+        font-size: 38px;
+    }
+
+
+    #duvidas .duvida1 .pergunta1 {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    #duvidas .duvida1 .resposta1 {
+        width: 398px;
+        margin-left: 75px;
+        HEIGHT: 100PX;
+    }
+
+    #duvidas .duvida1 .resposta1 p {
+        text-align: center;
+        padding-top: 19px;
+        font-family: "electrolize";
+        font-size: 18px;
+    }
+
+    #duvidas .duvida2 .resposta2 {
+        padding-top: 0px;
+        font-size: 19px;
+        margin-top: 27px;
+        width: 450px;
+        height: 100px;
+    }
+
+    #duvidas .duvida2 .resposta2 p {
+        text-align: center;
+        padding-top: 30px;
+        font-family: "electrolize";
+        font-size: 18px;
+    }
+
+    #duvidas .duvida2 .pergunta2 h3 {
+        text-align: center;
+        font-family: "bruno";
+        font-size: 21Px;
+        padding-top: 26px;
+    }
+    
+    #duvidas .duvida2 .resposta2 p {
+        text-align: center;
+        padding-top: 39px;
+        font-family: "electrolize";
+        font-size: 18px;
+    }
+
+    #duvidas .duvida3 .pergunta3 h3 {
+        text-align: center;
+        font-family: "bruno";
+        font-size: 22px;
+        padding-top: 25px;
+    }
+
+    #duvidas .duvida3 .resposta3 p {
+        text-align: center;
+        padding-top: 20px;
+        font-family: "electrolize";
+        font-size: 18px;
+    }
+
+    #duvidas .duvida3 .resposta3 {
+        padding-top: 0px;
+        font-size: 19px;
+        width: 450px;
+    }
+
+    #duvidas .duvida4 .resposta4 {
+        margin-top: 5px;
+        width: 425px;
+        height: 100px;
+    }
+
+    #duvidas .duvida4 .resposta4 p {
+        padding-top: 16px;
+        FONT-SIZE: 20px;
+    }
+
+    #duvidas .duvida1 .pergunta1 h3 {
+        text-align: center;
+        font-family: "bruno";
+        font-size: 30px;
+        padding-top: 32px;
+    }
+
+    #rodape .banner_r .texto-botao .textor a {
+        background-color: var(--verde-gaia);
+        margin-left: 10px;
+        font-family: "electrolize";
+        width: 190px;
+        height: 80px;
+        border: none;
+        border-radius: 20px;
+        text-align: left;
+        color: white;
+        font-size: 20px;
+        text-indent: 15px;
+        text-decoration: none;
+        display: flex;
+        font-size: 28px;
+        text-align: center;
+        margin-top: -30px;
+        padding-top: 12px;
+    }
+
+    #rodape .banner_r .botaor a {
+        background-color: var(--verde-gaia);
+        cursor: pointer;
+        width: 215px;
+        height: 63px;
+        margin-bottom: 100px;
+        font-family: "electrolize";
+        font-size: 28px;
+        text-align: left;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        text-indent: 10px;
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+        transition: 500ms;
+    }
+
+    #rodape .banner_r .botaor {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 30px;
+        margin-top: 65px;
+    }
+
+}
+
+
+@media screen and (max-width:320px)
+{
+    #sobre div.titulo-sub {
+        height: 415px;
+        width: 235px;
+        margin-left: 40px;
+    }
+
+    #sobre .texto-sobre {
+        width: 237px;
+        height: 560px;
+        margin-left: 1px;
+    }
+
+    #sobre .titulo-sub h3 {
+        font-size: 21px;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #orcamento .container-cards .card input, #orcamento .container-cards .campo-textarea textarea {
+        width: 175px;
+    }
+
+    #orcamento .imagem-botao button {
+        width: 267px;
+        margin-left: -101px;
     }
 
 }
