@@ -86,15 +86,13 @@ div.menu nav {
     justify-content: space-between;
 }
 
-div.menu p
-{
+div.menu p {
     display: none;
     font-family: "bruno";
     font-size: 48px;
 }
 
-div.menu nav.menu button
-{
+div.menu nav.menu button {
     display: none;
     background-color: var(--laranja-gaia);
     color: white;
@@ -614,13 +612,11 @@ form {
         justify-content: normal;
     }
 
-    #orcamento .imagem-botao img
-    {
+    #orcamento .imagem-botao img {
         display: none;
     }
 
-    #orcamento .imagem-botao button
-    {        
+    #orcamento .imagem-botao button {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -636,16 +632,14 @@ form {
     }
 
 
-    #orcamento .imagem-botao
-    {
+    #orcamento .imagem-botao {
         display: flex;
 
         margin: 0 auto;
     }
 
-    #orcamento .container-cards
-    {
-        
+    #orcamento .container-cards {
+
         width: 100px;
         margin-top: 10px;
         display: flex;
@@ -653,14 +647,13 @@ form {
         justify-content: flex-start;
     }
 
-    #orcamento .container-cards .card input, 
-    #orcamento .container-cards .campo-textarea textarea 
-    {
+    #orcamento .container-cards .card input,
+    #orcamento .container-cards .campo-textarea textarea {
         width: 800px;
         margin-bottom: -10px
     }
-    #orcamento h2
-    {
+
+    #orcamento h2 {
         padding-bottom: 10px;
         height: 50px;
     }
@@ -685,37 +678,31 @@ form {
 
     #duvidas .duvida2 .resposta2,
     #duvidas .duvida3 .resposta3,
-    #duvidas .duvida4 .resposta4
-    {
+    #duvidas .duvida4 .resposta4 {
         margin-top: 16px;
         width: 690px;
     }
 
 
-    #duvidas .duvida4 .resposta4 p
-    {
+    #duvidas .duvida4 .resposta4 p {
         padding-top: 16px;
     }
 
-    #duvidas .duvida2 .resposta2
-    {
+    #duvidas .duvida2 .resposta2 {
         padding-top: 20px;
         font-size: 19px;
     }
 
-    #duvidas .duvida3 .resposta3
-    {   
+    #duvidas .duvida3 .resposta3 {
         padding-top: 18px;
         font-size: 19px;
     }
 
-    header 
-    {
+    header {
         position: relative;
     }
 
-    header button
-    {
+    header button {
         width: 50px;
         display: unset;
         border: none;
@@ -726,22 +713,21 @@ form {
         fill: white;
     }
 
-    nav.menu{
+    nav.menu {
         height: 500px;
         width: 350px;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background: rgb(128,166,242);
-        background: linear-gradient(0deg, rgba(128,166,242,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 75%, rgba(128,166,242,1) 100%);
+        background: rgb(128, 166, 242);
+        background: linear-gradient(0deg, rgba(128, 166, 242, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 75%, rgba(128, 166, 242, 1) 100%);
         position: absolute;
         top: 1px;
         right: -50px;
         border-radius: 25px;
     }
 
-    nav.menu a
-    {
+    nav.menu a {
         width: 320px;
         height: 100px;
         border: 3px solid black;
@@ -753,29 +739,25 @@ form {
         padding-bottom: 15px;
     }
 
-    div.menu
-    {
+    div.menu {
         border: none;
         background-color: transparent;
         width: 0px;
         height: 0px;
     }
 
-    nav.menu 
-    {
+    nav.menu {
         padding-top: 200px;
         padding-bottom: 200px;
     }
 
-    div.menu p
-    {
+    div.menu p {
         display: flex;
-        top: -85px;     
+        top: -85px;
         position: relative;
     }
 
-    div.menu nav.menu button
-    {
+    div.menu nav.menu button {
         display: flex;
         width: 450px;
 
@@ -784,48 +766,40 @@ form {
         padding-top: 30px;
     }
 
-    #duvidas .duvida1 .resposta1
-    {
+    #duvidas .duvida1 .resposta1 {
         width: 690px;
         margin-left: 60px;
     }
 
-    #topo .banner .retorno a img
-    {
+    #topo .banner .retorno a img {
         width: 150px;
     }
 }
 
-@media screen and (max-width: 1080px) 
-{
+@media screen and (max-width: 1080px) {
 
-    div.titulo-sub
-    {
+    div.titulo-sub {
         height: 100px;
         position: relative;
         left: -84px;
     }
 
-    div.menu nav.menu
-    {
+    div.menu nav.menu {
         position: absolute;
         width: auto;
     }
 
-    #orcamento .container-cards .card input, 
-    #orcamento .container-cards .campo-textarea textarea
-    {
+    #orcamento .container-cards .card input,
+    #orcamento .container-cards .campo-textarea textarea {
         width: 650px;
     }
 
-    #orcamento .imagem-botao button
-    {
+    #orcamento .imagem-botao button {
         width: 758px;
         margin-left: -101px;
     }
 
-    #cases div.button-cases button
-    {
+    #cases div.button-cases button {
         width: 759px;
         margin-left: -312px;
         margin-bottom: 0px;
@@ -835,8 +809,7 @@ form {
         border-top-left-radius: 0px;
     }
 
-    #topo .banner .retorno a img
-    {
+    #topo .banner .retorno a img {
         width: 100px;
     }
 
@@ -844,59 +817,49 @@ form {
 }
 
 
-@media screen and (max-width: 800px)
-{
-    #sobre div.titulo-sub
-    {
+@media screen and (max-width: 800px) {
+    #sobre div.titulo-sub {
         height: 200px;
         width: 700px;
         margin-left: 40px;
     }
 
-    #sobre .texto-sobre
-    {
+    #sobre .texto-sobre {
         width: 580px;
         height: 240px;
         margin-left: -10px;
     }
 
-    #orcamento .container-cards .card input, 
-    #orcamento .container-cards .campo-textarea textarea
-    {
+    #orcamento .container-cards .card input,
+    #orcamento .container-cards .campo-textarea textarea {
         width: 450px;
     }
 
-    #orcamento .imagem-botao button
-    {
+    #orcamento .imagem-botao button {
         width: 561px;
         margin-left: -101px;
     }
 
-    #cases div.button-cases button
-    {
+    #cases div.button-cases button {
         width: 562px;
 
     }
 
-    #cases .texto-cases h2
-    {
+    #cases .texto-cases h2 {
         margin-top: -35px;
     }
 
 
-    #empresa .repre h2
-    {
+    #empresa .repre h2 {
         text-align: center;
     }
 
-    #rodape .banner_r h2
-    {
+    #rodape .banner_r h2 {
         text-align: center;
     }
 
 
-    #rodape .banner_r .texto-botao .textor p
-    {
+    #rodape .banner_r .texto-botao .textor p {
         margin-left: 21px;
         font-size: 31px;
         text-align: justify;
@@ -904,13 +867,11 @@ form {
     }
 }
 
-@media screen and (max-width: 551px)
-{
+@media screen and (max-width: 551px) {
 
 
 
-    #tpop .banner
-    {
+    #tpop .banner {
         background-size: 100px;
     }
 
@@ -927,13 +888,11 @@ form {
     }
 
     #orcamento .container-cards .card input,
-    #orcamento .container-cards .campo-textarea textarea 
-    {
+    #orcamento .container-cards .campo-textarea textarea {
         width: 360px;
     }
 
-    #orcamento .imagem-botao button 
-    {
+    #orcamento .imagem-botao button {
         width: 458px;
         margin-left: -101px;
     }
@@ -942,8 +901,7 @@ form {
         width: 470px;
     }
 
-    #cases .texto-cases h2
-    {
+    #cases .texto-cases h2 {
         margin-top: -35px;
     }
 
@@ -952,8 +910,7 @@ form {
         font-size: 39px;
     }
 
-    #rodape .banner_r h2
-    {
+    #rodape .banner_r h2 {
         text-align: center;
     }
 
@@ -1050,7 +1007,7 @@ form {
         font-size: 21Px;
         padding-top: 26px;
     }
-    
+
     #duvidas .duvida2 .resposta2 p {
         text-align: center;
         padding-top: 39px;
@@ -1147,8 +1104,7 @@ form {
 }
 
 
-@media screen and (max-width:320px)
-{
+@media screen and (max-width:320px) {
     #sobre div.titulo-sub {
         height: 415px;
         width: 235px;
@@ -1168,7 +1124,8 @@ form {
         margin-right: 10px;
     }
 
-    #orcamento .container-cards .card input, #orcamento .container-cards .campo-textarea textarea {
+    #orcamento .container-cards .card input,
+    #orcamento .container-cards .campo-textarea textarea {
         width: 175px;
     }
 
@@ -1177,4 +1134,209 @@ form {
         margin-left: -101px;
     }
 
+    #cases .texto-cases h2 {
+        margin-top: -35px;
+        margin-left: -66px;
+        font-size: 36px;
+    }
+
+    #cases div.button-cases button {
+        width: 275px;
+        margin-left: -244px;
+    }
+
+    #cases .texto-cases h2 {
+        margin-top: 10px;
+        margin-left: -66px;
+        font-size: 36px;
+    }
+
+    #empresa .repre h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    #empresa .repre img {
+        margin-top: 32px;
+        width: 300px;
+        margin-left: 7px;
+    }
+
+    #duvidas h2 {
+        font-family: "bruno";
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #duvidas .duvida1 .pergunta1 {
+        width: 72%;
+        margin-left: 15%;
+        margin-right: 5%;
+    }
+
+    #duvidas .duvida1 .pergunta1 h3 {
+        text-align: center;
+        font-family: "bruno";
+        font-size: 25px;
+        padding-top: 16px;
+    }
+
+    #duvidas .duvida1 .resposta1 {
+        width: 201px;
+        margin-left: 64px;
+        HEIGHT: 158PX;
+    }
+
+
+    #duvidas .duvida2 .pergunta2 {
+        width: 72%;
+        margin-left: 13%;
+        margin-right: 5%;
+        height: 118px;
+    }
+
+    #duvidas .duvida2 .resposta2 {
+        padding-top: 0px;
+        font-size: 19px;
+        margin-top: -17px;
+        width: 187px;
+        height: 141px;
+        margin-left: 26px;
+    }
+
+    #duvidas .duvida3 .pergunta3 {
+        width: 72%;
+        margin-left: 13%;
+        margin-right: 5%;
+    }
+
+    #duvidas .duvida3 .pergunta3 h3 {
+        text-align: center;
+        font-family: "bruno";
+        font-size: 19px;
+        padding-top: 15px;
+    }
+
+    #duvidas .duvida3 .resposta3 {
+        padding-top: 0px;
+        font-size: 19px;
+        width: 189px;
+        height: 169px;
+        margin-top: 0px;
+    }
+
+
+
+    #duvidas .duvida4 .pergunta4 {
+        width: 74%;
+        margin-left: 13%;
+        margin-right: 5%;
+        height: 160px;
+        margin-top: 183px;
+    }
+
+    #duvidas .duvida4 .pergunta4 h3 {
+        text-align: center;
+        font-family: "bruno";
+        font-size: 20px;
+        padding-top: 32px;
+    }
+
+    #duvidas .duvida4 .resposta4 {
+        margin-top: 25PX;
+        width: 208px;
+        height: 151px;
+        margin-left: 11px;
+    }
+
+    #topo 
+    {
+        height: 870px;
+    }
+
+
+    div.menu nav.menu {
+        position: absolute;
+        width: 318px;
+        text-align: center;
+        height: 550px;
+    }
+
+
+    nav.menu a {
+        width: 260px;
+        height: 100px;
+        border: 3px solid black;
+        background-color: #9cb0d8;
+        margin-bottom: 40px;
+        text-align: center;
+        border-radius: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    div.menu nav.menu button {
+        display: flex;
+        width: 268px;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        align-items: center;
+        justify-content: center;
+        text-indent: 0px;
+    }
+
+    #rodape .banner_r h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    #rodape .banner_r .texto-botao .textor p {
+        margin-left: 21px;
+        font-size: 20px;
+        text-align: left;
+        width: 159px;
+    }
+
+    #rodape .banner_r .texto-botao .textor a {
+        background-color: var(--verde-gaia);
+        margin-left: 10px;
+        font-family: "electrolize";
+        width: 158px;
+        height: 79px;
+        border: none;
+        border-radius: 20px;
+        text-align: left;
+        color: white;
+        font-size: 20px;
+        text-indent: 15px;
+        text-decoration: none;
+        display: flex;
+        font-size: 28px;
+        text-align: center;
+        margin-top: -108px;
+        padding-top: 12px;
+    }
+
+    #rodape .banner_r .botaor a {
+        background-color: var(--verde-gaia);
+        cursor: pointer;
+        width: 70px;
+        height: 63px;
+        margin-bottom: 100px;
+        font-family: "electrolize";
+        font-size: 28px;
+        text-align: left;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        text-indent: 10px;
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+        transition: 500ms;
+        color: transparent;
+    }
 }
