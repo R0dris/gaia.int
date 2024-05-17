@@ -19,6 +19,16 @@ html {
     scroll-behavior: smooth;
 }
 
+.container-grid button svg
+{
+    fill: black;
+}
+
+.container-grid button
+{
+    width: 110px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -778,6 +788,12 @@ form {
 
 @media screen and (max-width: 1080px) {
 
+
+    .menu button
+    {
+        display: none;
+        width: 100px;
+    }
     div.titulo-sub {
         height: 100px;
         position: relative;
@@ -1740,23 +1756,9 @@ form {
     }
 
     #sobre div.titulo-sub {
-        height: 410px;
-        width: 238px;
+        height: 425px;
+        width: 200px;
         margin-left: 25px;
-    }
-
-    #sobre .texto-sobre {
-        width: 209px;
-        height: 580px;
-        font-family: "electrolize";
-        padding-left: 30px;
-        padding-right: 30px;
-        margin-bottom: 30px;
-        box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
-        border-radius: 20px;
-        padding-top: 15px;
-        margin-left: -14px;
-        font-size: 22px;
     }
 
     #orcamento .container-cards .card input, #orcamento .container-cards .campo-textarea textarea {
@@ -1776,7 +1778,10 @@ form {
         border-bottom-right-radius: 32px;
         border-top-right-radius: 0px;
         border-top-left-radius: 0px;
+        margin-right: 0;
     }
+
+
 
     #cases .texto-cases h2 {
         margin-top: -50px;
@@ -1866,5 +1871,287 @@ form {
         margin-top: 4px;
         width: 215px;
         height: 146px;
+    }
+
+    div.menu nav.menu {
+        position: absolute;
+        width: 250px;
+
+        margin-left: -348px;
+    }
+
+    div.menu p {
+        text-align: center;
+        display: flex;
+        top: -85px;
+        position: relative;
+        font-size: 32px;
+    }
+
+    nav.menu a {
+        width: 200px;
+        height: 100px;
+        border: 3px solid black;
+        background-color: #9cb0d8;
+        margin-bottom: 40px;
+        text-align: center;
+        border-radius: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    div.menu nav.menu button {
+        display: flex;
+        width: 179px;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        padding-right: 150px;
+    }
+
+    #sobre .texto-sobre {
+        width: 230px;
+        height: 540px;
+        font-family: "electrolize";
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        padding-top: 15px;
+        margin-left: -4px;
+        font-size: 23px;
+    }
+
+    #sobre .titulo-sub h2 {
+        margin-top: 20px;
+        font-size: 32px;
+    }
+
+    #rodape .banner_r .botaor a {
+        background-color: var(--verde-gaia);
+        cursor: pointer;
+        width: 70px;
+        height: 63px;
+        margin-bottom: 100px;
+        font-family: "electrolize";
+        font-size: 28px;
+        text-align: left;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        text-indent: 10px;
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+        transition: 500ms;
+        color: transparent;
+        margin-right: -100px;
+        /* margin-left: 1px; */
+    }
+
+}
+
+
+
+@media screen and (max-width: 650px)
+{
+    #sobre div.titulo-sub {
+        height: 200px;
+        width: 590px;
+        margin-left: 25px;
+    }   
+
+    #sobre .texto-sobre {
+        width: 480px;
+        height: 266px;
+        font-family: "electrolize";
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        padding-top: 15px;
+        margin-left: 20px;
+        font-size: 24px;
+    }
+
+    #orcamento h2 {
+        padding-bottom: 10px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    #orcamento .container-cards .card input, #orcamento .container-cards .campo-textarea textarea {
+        width: 365px;
+        margin-bottom: -10px;
+    }
+
+    #orcamento .imagem-botao button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: -400px;
+        position: relative;
+        width: 456px;
+        margin-left: -101px;
+        border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+    #cases div.button-cases button {
+        width: 457px;
+        margin-left: -312px;
+        margin-bottom: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+    #cases .texto-cases h2 {
+        margin-top: -35px;
+        margin-left: -30px;
+    }
+
+    #rodape .banner_r .texto-botao .textor p {
+        font-family: "electrolize";
+        font-size: 28px;
+        width: 233px;
+        height: 265px;
+        margin-left: 75px;
+        margin-top: 50px;
+        text-align: justify;
+        margin-bottom: 130px;
+        margin-right: 30px;
+    }
+
+    #duvidas .duvida1 .resposta1 {
+        width: 520px;
+        margin-left: 60px;
+    }
+
+    #duvidas .duvida2 .resposta2, #duvidas .duvida3 .resposta3 {
+        margin-top: -20px;
+        width: 538px;
+    }
+
+    #duvidas .duvida4 .resposta4
+    {
+        margin-top: 4px;
+        width: 538px;
+    }
+}
+
+
+@media screen and (max-width:551px)
+{
+    #sobre div.titulo-sub {
+        height: 263px;
+        width: 495px;
+        margin-left: 25px;
+    }
+    
+    #orcamento .imagem-botao button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: -400px;
+        position: relative;
+        width: 459px;
+        margin-left: -101px;
+        border-bottom-left-radius: 32px;
+        border-bottom-right-radius: 32px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+    #cases div.button-cases button {
+        width: 472px;
+        margin-left: -312px;
+        margin-bottom: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+    #duvidas .duvida1 .resposta1 {
+        width: 408px;
+        margin-left: 75px;
+    }
+
+    #duvida .duvida1 .resposta1
+    {
+        margin-top: 15px;
+        width: 450px;
+    }
+
+    #duvidas .duvida2 .resposta2
+    {
+        margin-top: 20px;
+        width: 441px;
+    }
+
+    #duvidas .duvida3 .resposta3
+    {
+        margin-top: 10px;
+        width: 450px;
+    }
+
+    #duvidas .duvida4 .resposta4 {
+        margin-top: 4px;
+        width: 444px;
+    }
+    
+    #sobre .texto-sobre {
+        width: 390px;
+        height: 344px;
+        font-family: "electrolize";
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        padding-top: 15px;
+        margin-left: 20px;
+        font-size: 24px;
+    }
+
+    #sobre {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 95px;
+    }
+
+    #sobre .texto-sobre {
+        width: 390px;
+        height: 344px;
+        font-family: "electrolize";
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        padding-top: 15px;
+        margin-left: 10px;
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (max-width: 509px) {
+    #sobre div.titulo-sub {
+        height: 263px;
+        width: 460px;
+        margin-left: 25px;
     }
 }
