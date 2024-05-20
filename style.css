@@ -31,6 +31,7 @@ html {
     width: 110px;
     background: none;
     border: none;
+    display: none;
 }
 
 * {
